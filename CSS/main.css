@@ -1,0 +1,78 @@
+  body{
+    font-family: 'Roboto', 'Arial' , sans-serif;
+    margin: 20px;
+    background-color: antiquewhite;
+  }
+
+  h1{
+    text-align: center;
+    margin: 40px;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .js-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .item{
+    color: black;
+    margin: 0;
+    margin-bottom: 40px;
+    padding:0 20px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: wheat
+  }
+  
+  .img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .id{
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .genres{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .select-genres {
+    display:inline-block;
+    border: 4px solid  wheat;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display:inline-block;
+    margin-left: 460px;
+    margin-bottom: 40px;
+  }
+  .select-order {
+    display:inline-block;
+    border: 4px solid  wheat;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 40px;
+  }
+  
